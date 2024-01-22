@@ -11,5 +11,6 @@
 3.	¿Qué mejoras de rendimiento y mantenibilidad se lograron con el refactoring?
 4.	¿Cuáles fueron los desafíos más significativos durante el proceso de refactoring y cómo se superaron?
 5.	¿Qué impacto tuvo el refactoring en la experiencia del usuario final?
-6.	¿Cómo se podrían aplicar las lecciones aprendidas en este proyecto a futuros proyectos de desarrollo y refactoring?
+#Principalmente la oportunidad de buscar diferentes opciones o métodos de implementación abstrayendo la experiencia que esto implica.
+7.	¿Cómo se podrían aplicar las lecciones aprendidas en este proyecto a futuros proyectos de desarrollo y refactoring?
 
