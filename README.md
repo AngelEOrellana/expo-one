@@ -16,3 +16,4 @@
 7.	¿Cómo se podrían aplicar las lecciones aprendidas en este proyecto a futuros proyectos de desarrollo y refactoring?
 ### La práctica nos permite visualizar que hay muchas formas de realizar el desarrollo, ganando experiencia que en si, implica celeridad en futuros desarrollos.
 
+
