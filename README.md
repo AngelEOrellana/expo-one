@@ -5,10 +5,9 @@
 ### React Native 
 1.  ¿Qué problemas específicos de rendimiento o mantenibilidad se identificaron en la aplicación original?
 #### 
-
-
 2.	¿Cómo se aseguró que el refactoring no afectara negativamente la funcionalidad existente?
-3.	¿Qué mejoras de rendimiento y mantenibilidad se lograron con el refactoring?
+### Se respaldó el código iniacial, luego la nueva implementación fue insertada poco a poco con pruebas usando alert().
+4.	¿Qué mejoras de rendimiento y mantenibilidad se lograron con el refactoring?
 ### Se pudo separar la fucionalidad del botón de su implementación, lo cual considero una mejora para mantener el orden en el código.
 5.	¿Cuáles fueron los desafíos más significativos durante el proceso de refactoring y cómo se superaron?
 ### Que la aplicación no pierda las funcionalidades que ya tenia.
