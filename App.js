@@ -1,14 +1,18 @@
-import { StatusBar } from 'expo-status-bar';
-import { Image, StyleSheet, Text, View } from 'react-native';
-
-import Button from './components/Button';
+import React from 'react';
+import { View, Text, Image, StyleSheet } from 'react-native';
+import ButtonComponent from './components/ButtonComponent';
 import ImageViewer from './components/ImageViewer';
 
-//const PlaceHolderImage = require ('./assets/images/HP-Victus.jpg')
 const PlaceHolderImage1 = require ('./assets/images/ramon01.png')
 
-export default function App() {
+const App = () => {
+  const handlePress = () => {
+    //console.log('Botón presionado');      
+    alert('Botón nuevo presionado....');
+};
+
   return (
+    
     <View style={styles.container}>
       <View style={styles.imageContainer}>
         <Text style={styles.text}>!!Ya vienen los Bertenos.....!!</Text>
@@ -17,15 +21,15 @@ export default function App() {
         {/* <Image source={PlaceHolderImage} style={styles.image}></Image> */}        
       </View>
 
-      <View style={styles.footerContainer}>
-        <Button label="Choose a photo"/>
-        <Button label="Use this photo"/>
+      <View style={styles.boton1}>
+        <Text style={styles.text}>Probando el refactoring....!!</Text>
+        <ButtonComponent onPress={handlePress} title="Presionar" />
       </View>
-
-      <StatusBar style="auto" />
     </View>
+   
   );
-}
+};
+
 
 const styles = StyleSheet.create({
   container: {
@@ -56,5 +60,14 @@ const styles = StyleSheet.create({
     width:120,
     padding:5,
     marginBottom:20,
+  },
+
+  boton1:{ 
+    flex: 1, 
+    justifyContent: 'center', 
+    alignItems: 'center' 
   }
+
 });
+
+export default App;
