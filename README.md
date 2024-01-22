@@ -3,3 +3,4 @@
 <h3>Refactoring de aplicación REACT NATIVE</h3>
 
 ### React Native 
+- 1. ¿Qué problemas específicos de rendimiento o mantenibilidad se identificaron en la aplicación original?
